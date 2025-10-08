@@ -1,0 +1,21 @@
+{
+  "name": "open-house-api",
+  "private": true,
+  "scripts": {
+    "dev": "tsx --watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.7.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
